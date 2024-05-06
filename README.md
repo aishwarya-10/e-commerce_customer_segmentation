@@ -30,5 +30,24 @@ The chart visualizes the distribution of browsing activity across different bran
 ![cust_views](https://github.com/aishwarya-10/e-commerce_customer_segmentation/assets/48954230/03aae9dd-8ed6-4518-87c8-4ce3e5ef5c63)
 
 ## Cluster analysis
-
+The data is processed by removing irrelevant features and filling in missing values using the `mode` technique. K-means calculates the distance between data points using Euclidean distance. This distance measure is heavily influenced by the scale of the features in your data. 
+We have used the Silhouette score to find the optimum number of clusters and decided k=3 as the best pick after analyzing the Silhouette score.
+    
 ![elbow](https://github.com/aishwarya-10/e-commerce_customer_segmentation/assets/48954230/2570c13a-062a-4267-8db0-8abc373e6b07)
+
+On applying the K-means algorithm with 3 number of clusters, we have segmented the customers under
+    - **Food and snacks**
+    - **Lifestyle and Fashion**
+    - **Electronics**
+
+| Cluster | Orders | Frequency |
+| :--- |:--- | :--- |
+| 1 | 5324 | 1278 |
+| 2 | 24359 | 5453 |
+| 3 | 95411 | 23269 |
+
+## Conclusion
+- The customer segmentation analysis using K-means clustering provides valuable insights into the search behavior and purchase patterns of e-commerce customers.
+- These clusters give information about the interest of the customer in the different brands. 
+- This type of segmentation can help the e-commerce companies, to know the customer choices and they can provide more accurate recommendations to the customers.
+
