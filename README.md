@@ -1,5 +1,7 @@
 # E-Commerce Customer Segmentation
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://e-commerce-customer-segmentation.streamlit.app/)
+
 ## Overview
 Leveraging a rich dataset of orders and brand searches from over 30,000 customers, I built a customer segmentation model. This model identifies customer brand preferences, enabling personalized marketing strategies.
 
